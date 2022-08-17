@@ -1,0 +1,90 @@
+p {
+    text-align: center;
+    color: rgb(51, 168, 223);
+}
+
+#Texto1
+{
+    text-align: center;
+    color: rgb(159, 14, 179);
+    font-family: 'DynaPuff', cursive;
+    font-size: 1.5em;
+
+}
+
+#Texto2
+{
+    text-align: center;
+    color: rgb(33, 134, 29);
+    font-size: 2em;
+}
+
+.Cuadro{
+    background-color: blue ;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+*{
+    margin: 1000;
+    padding: 1000;
+    font-size: 12px;
+}
+
+#Cuadro1:hover
+{
+    background-color: yellow;
+
+}
+
+li:first-child {
+
+    color: orange;
+
+}
+
+#Input1:focus{
+
+    background-color: black;
+}
+
+/*SARA TE ODIO CON TODO MI CORA*/
+/* DEVUELVEME EL CELULOCO */
+
+#Color1{
+    background-color: rgb(0, 183, 255);
+    padding: 30px;
+    display: block;
+}
+
+#Color2{
+    background-color: rgb(159, 14, 179);
+    padding: 30px;
+    display: block;
+}
+
+#Color3{
+    background-color: #48ff00;
+    padding: 30px;
+    display: block;
+}
+
+.Contenedor{
+    height: 600px;
+    width: 400px;
+    border: 20px groove rgb(134, 62, 21);
+    background-image: url("Rana.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: darkgreen;
+    border-radius: 30px;
+}
+
+#RanaC{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    text-align: center;
+        
+}
