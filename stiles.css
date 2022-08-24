@@ -88,3 +88,70 @@ li:first-child {
     text-align: center;
         
 }
+
+.Pantalla{
+    /* background-color: blue; */
+    height: 400px;
+    width: 100%;
+    /* background-image: linear-gradient(45deg,rgb(51, 255, 0),rgb(183, 0, 255)); */
+    /* background-image: linear-gradient(to right,rgb(51, 255, 0),rgb(183, 0, 255)); */
+    /* background-image: radial-gradient(circle,rgb(51, 255, 0),rgb(183, 0, 255)); */
+    background-image: linear-gradient(120deg, rgba(255, 208, 1, 0.5) 0%, rgba(255,234,169,0.5) 25%, rgba(255,210,1,0.5) 50%, rgba(255,234,169,0.5) 75%, rgba(106,82,8,0.5) 100%), url("./Imagenes/Cascada.jpg");
+    background-size: contain;
+}
+
+.Cuadrito{
+    background-image: url(./Imagenes/wall-e-03.gif);
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+    animation-name: mi_animacion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mi_animacion{
+    0%{}
+    25%{transform: translate(400px,0px);}
+    50%{transform: translate(400px,200px);}
+    75%{transform: translate(0px,200px);}
+    100%{transform: translate(0px, 0px);}
+}
+
+.Cuadradito1{
+    background-color: #48ff00;
+    margin: 10px, 20px, 30px, 40px ;
+    padding: 10px, 20px, 30px 40px ;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.Cuadradito2{
+    background-color: blueviolet;
+    margin: 10px, 20px, 30px, 40px ;
+    padding: 10px, 20px, 30px 40px ;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    box-sizing: content-box;
+}
+
+.Circulito1{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    box-shadow: 2px 5px 7px 0px rgb(163, 178, 189);
+}
+
+.material-icons{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
