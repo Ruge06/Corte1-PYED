@@ -1,42 +1,28 @@
 body
 {
-    height: 100vH;
+    height: 200vH;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(./Imagenes/Gracia\ Fondo.jpg);
-    background-size: 100vw 100vh;
+    background-size: 100vw 200vh;
     background-repeat: no-repeat;
 }
 
 .capa
 {
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     position: absolute;
     background: #fff5d6;
     opacity: 0.7;
 }
 
-.TituloPrincipal
-{
-    z-index: 2;
-    height: 200px;
-    width: 800px;
-    padding: 20px 20px;
-    font-size: 15px;
-    text-align: center;
-    font-size: 5em;
-    font-family: 'Cinzel', serif;
-    color: #ffc001;
-    text-shadow: 2px 5px 7px rgb(0, 0, 0);
-}
-
 .parrafo
 {
     z-index: 1;
-    height: 800px;
-    width: 1000px;
+    height: 175vh;
+    width: 80%;
     padding: 20px 20px;
     font-size: 15px;
     line-height: 1.5;
@@ -47,6 +33,16 @@ body
     
 }
 
+#Titulo
+{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #ffc001;
+    text-shadow: 2px 5px 7px rgb(0, 0, 0);
+
+}
+
 .parrafo img
 {
     height: 310px;
@@ -54,4 +50,65 @@ body
     float: left;
     margin-right: 15px;
 
+}
+
+#Subtitulo1
+{
+    font-size: 2em;
+    font-family: 'Cinzel', serif;
+    color: #ffc001;
+}
+
+.Cuadro
+{
+    width: 600px;
+    height: 346px;
+    background-image: linear-gradient(120deg, rgba(255, 208, 1) 0%, rgba(255,234,169) 25%, rgba(255,210,1) 50%, rgba(255,234,169) 75%, rgba(106,82,8) 100%);
+    box-shadow: 2px 5px 7px 0px rgb(163, 178, 189);
+}
+
+#Mapa1:hover
+{
+    background-image: url(./Imagenes/alejandro_magno_mapa.jpg);
+}
+
+#Tabla1
+{
+    width: 600px;
+    height: auto;
+    border-color: rgba(255, 255, 255, 0)
+    
+}
+
+.TitulosT
+{
+    color: rgb(255, 255, 255);
+    background-color: #ffc001;
+    border-radius: 1em;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.ContenidoT
+{
+    background-color: #fff5d6;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.AmAnim
+{
+    background-image: url(./Imagenes/AM_Anim.jpg);
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+    animation-name: Animacion1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Animacion1 
+{
+    0% {}
+    100% {transform: translate(70vw);}
 }
